@@ -7,7 +7,7 @@ if ! pip list 2>&1 | grep -q "geoip2"; then
   echo "\
     requests \
     argparse \
-    geoip2==3.0.0" >> /mod-pip-packages-to-install.list
+    geoip2==4.8.0" >> /mod-pip-packages-to-install.list
 fi
 
 if [ ! -f /config/fail2ban/Fail2Ban.py ]; then
